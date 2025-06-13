@@ -1588,6 +1588,10 @@ h3 {
   .valija {
     flex: 1 1 200px;    /* Ocupar al menos 200px, expandirse si hay lugar */
     max-width: 220px;   /* Para que no crezcan demasiado */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
   }
 
   .container {
